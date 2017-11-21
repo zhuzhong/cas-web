@@ -74,6 +74,7 @@
 		authentication handler beans: | | * org.jasig.cas.authentication.LdapAuthenticationHandler 
 		| * org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler | * org.jasig.cas.adaptors.x509.authentication.handler.support.X509CredentialsAuthenticationHandler 
 		| * org.jasig.cas.support.spnego.authentication.handler.support.JCIFSSpnegoAuthenticationHandler -->
+		<!-- 
 	<bean id="primaryAuthenticationHandler"
 		class="org.jasig.cas.authentication.AcceptUsersAuthenticationHandler">
 		<property name="users">
@@ -81,7 +82,12 @@
 				<entry key="test" value="test" />
 			</map>
 		</property>
+	</bean> -->
+	
+	<bean id="primaryAuthenticationHandler"
+		class="com.z.cas.SimpleUsernamePasswordAuthenticationHandler">
 	</bean>
+	
 	<!-- -->
 
 	<!-- Required for proxy ticket mechanism -->

@@ -22,9 +22,9 @@ var scripts = [
                "http://libs.baidu.com/jquery/2.1.1/jquery.min.js",
     /*"https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js",*/
     "https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
-    ,
-    "https://cdn.rawgit.com/cowboy/javascript-debug/master/ba-debug.min.js"
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js",
+   /* "https://cdn.rawgit.com/cowboy/javascript-debug/master/ba-debug.min.js"*/
+    "ba-debug.min.js"
     ];
 
 head.ready(document, function() {
