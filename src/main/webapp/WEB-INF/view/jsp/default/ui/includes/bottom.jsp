@@ -28,7 +28,7 @@
        <%--  <p><spring:message code="copyright" /></p>
         <p>Powered by <a href="http://www.apereo.org/cas">Apereo Central Authentication Service <%=org.jasig.cas.CasVersion.getVersion()%></a></p>
    --%>
-   <p> Copyright © 2016-2016 Alading Bank 单点登录平台 - Powered By Alading Bank V1.0.0</p>
+   <p> Copyright © 2016-2016 单点登录平台 - Powered By  V1.0.0</p>
     </div>
 </footer>
 
